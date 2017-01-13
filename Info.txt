@@ -1,0 +1,6 @@
+TensorFlow weather forecast model
+that tries to map weather parameters Pin at tn to the next hour parameter values Pout(tn+1) and has 2 hidden layers.
+The dataset is preprocessed and normalized.
+During model training the accuracy, entropy, weight and bias dynamics are visualized using matplotlib to help with hyperparameter optimization.
+Model scoring is done by presenting test data and letting the model dream by presenting Pout as Pin for 24 iterations/hours.
+Although good weather forecasts were not expected, the dreaming model shows clear day-night patterns and does not run out of the expected data range boundaries. 
