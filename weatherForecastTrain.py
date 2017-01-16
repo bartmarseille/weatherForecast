@@ -33,7 +33,7 @@ pd.set_option('expand_frame_repr', False)
 # global variables
 # datafile = 'KNMI_2000_hourly.csv'
 modelfile = '/tmp/KNMI_2000_hourly_model'
-modeltxtfile = 'model/waetherForecatsModel%s.txt' % dt.datetime.today().strftime('%Y%m%dT%H%M%S')
+modeltxtfile = 'model/weatherForecastModel%s.txt' % dt.datetime.today().strftime('%Y%m%dT%H%M%S')
 normalizefile = 'data/KNMI_2000_hourly_normalizer'
 csvfile = 'data/KNMI_2000_hourly_model.csv'
 
